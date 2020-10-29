@@ -8,6 +8,7 @@ public class Tester{
     System.out.println(abc.getPerimeter());
     System.out.println(abc.getArea());
     System.out.println(abc.classify());
+    System.out.println(abc.toString());
     //Isosceles Triangle
     Point D = new Point(0,0);
     Point E = new Point(1,1);
@@ -16,6 +17,7 @@ public class Tester{
     System.out.println(def.getPerimeter());
     System.out.println(def.getArea());
     System.out.println(def.classify());
+    System.out.println(def.toString());
     //Scalene Triangle
     Point G = new Point(0,0);
     Point H = new Point(0,3);
@@ -24,5 +26,6 @@ public class Tester{
     System.out.println(ghi.getPerimeter());
     System.out.println(ghi.getArea());
     System.out.println(ghi.classify());
+    System.out.println(ghi.toString());
   }
 }
