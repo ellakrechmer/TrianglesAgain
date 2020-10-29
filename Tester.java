@@ -1,7 +1,7 @@
 public class Tester{
   public static void main(String[] args){
     //Equilateral Triangle
-    Point A = new Point(2, 0);
+    Point A = new Point(0, 0);
     Point B = new Point(4, 0);
     Point C = new Point(2, Math.sqrt(12));
     Triangle abc = new Triangle(A,B,C);
